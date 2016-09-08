@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-   <!-- <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="searchViewStyle">@style/MySearchViewStyle</item>
-    </style>-->
 
     <style name="Theme.MyCompatTheme" parent="@style/AppTheme.NoActionBar">
         <item name="android:windowBackground">@color/winBackground</item>
         <item name="android:actionBarStyle">@style/ActionBar</item>
         <item name="actionBarStyle">@style/ActionBar</item>
+        <item name="android:textColorPrimary">@android:color/holo_green_dark</item>
+        <item name="android:textColorSecondary">@android:color/holo_red_light</item> <!-- icons -->
 
     </style>
 
